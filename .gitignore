@@ -4,9 +4,14 @@ package-lock.json
 
 # Build outputs
 dist/
-*.js
 *.d.ts
 *.tsbuildinfo
+
+# Exclude compiled JS but keep config files
+*.js
+!*.config.js
+!eslint.config.js
+!jest.config.js
 
 # Test coverage
 coverage/
