@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-package-lock.json
+# NOTE: package-lock.json is committed for CI/CD determinism
 
 # Build outputs
 dist/
